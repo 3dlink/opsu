@@ -1,0 +1,113 @@
+body{
+  margin:0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+
+body #fondo{
+	background-color: #ff6633;
+	background-image: url("../webroot/img/index/career_statement_index.jpg");
+	height: 785px;
+	background-size: 100% 150%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+body #degradado{
+	background-image: url("../webroot/img/degradado.png");
+	height: 320px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+header {
+	font-size: 18px;
+	margin:0 auto;
+	/*width: 1170px;*/
+  top: 0;
+  height: 120px;  
+  line-height: 30px;
+  font-weight: 300;
+}
+header #logo{
+	float: left;
+	margin-top: 40px;
+	margin-left: 85px;
+}
+
+header p{
+	color:#cba0a8;
+	text-align: right;
+  float: right;
+  margin-top: 30px;
+  margin-right: 55px;
+}
+
+#pantalla2{
+	height: 775px;
+	background-image: url("../webroot/img/index/feets_index.jpg");
+	background-size: 100%;
+	background-color: #51284f;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#pantalla3{
+	background-image: url("../webroot/img/index/screen3_index.png");
+	height: 635px;
+	background-color: #f1f1f1;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+#pantalla4{
+	height: 775px;
+	background-image: url("../webroot/img/index/girl_index.jpg");
+  	background-size: 100% 140%;
+  	background-color: #cf5853;
+	background-repeat: no-repeat;
+	  background-position-y: -150px;
+	  background-position: center;
+}
+
+#pantalla5{
+	height: 775px;
+	background-position-y: -100px;
+	background-image: url("../webroot/img/index/old_man_complete_index.jpg");
+	background-size: 100% 150%;
+	background-color: #a73e65;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.titleIndex{
+	font-weight: 400;
+	padding-top: 30px;
+	font-size:5rem; 
+	color:white;
+	text-align: center;
+	text-shadow: 2px 2px 0px #82472f;
+}
+
+
+@media ( max-width : 750px) {
+
+	.firtsContent3{
+		width: 100% !important;
+	}
+
+	.iconsI{
+		float: none !important; 
+		margin-top: 35px !important;
+		text-align: center;
+	}
+
+	.secondGroup3{
+		margin-top: 60px !important;
+	}
+
+	.iconsI > img{
+		 padding-left: 0px !important;
+	}
+}

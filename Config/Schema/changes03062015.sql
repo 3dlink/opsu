@@ -1,0 +1,1 @@
+ALTER TABLE  `comments` ADD  `modulo` INT NOT NULL AFTER  `quest` ;

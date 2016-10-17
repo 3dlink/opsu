@@ -1,0 +1,737 @@
+colorLentrasM= #51284f;
+colorLetraR= #e4bec3;
+moradoMentr= #543458;
+naranjaBtn= #ff6633;
+rosaMentr= #e4bec3;
+moradaDivs= #cabeca;
+rosaTransp= rgba(228,190,195,0.35);
+@media (max-width: 765px)
+	body	
+		background-color rgba(0,0,0,0)
+		color colorLentrasM
+		font-family 'Lato', sans-serif
+		height 71.7%
+	header
+		position: fixed;
+		width: 100%;
+		background-color: white;
+		z-index: 2;
+		top 0
+		padding 0 33px
+	#quiz-header
+		border-bottom: 1px solid #ddd;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 640px;
+		padding-top: 37px;
+		img
+			width: 225px;
+			display: block;
+		#quiz-header-msg
+			color colorLetraR
+			font-size: 18px;
+			max-width: 718px;
+			display: block;
+			text-align: right;
+			font-weight: 300;
+			margin-top: 16px;
+	#quiz-container
+		max-width: 640px
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 200px; 
+		padding: 0 33px;
+		#quiz-wellcome
+			background-color: #cabeca;
+			min-height: 278px;
+			padding-top: 20px;
+			width: 100%;
+			padding-left: 34px;
+			padding-right: 37px;
+			padding-bottom: 28px;
+			h2
+				margin: 0;
+				font-size: 30px;
+				line-height: 40px;
+				br
+					display none
+			h4
+				margin-top: 32px;
+				font-size: 22px;
+				font-weight: 300;
+				br
+					display none
+	.mentr-quiz-content
+		.question
+			padding-bottom: 3em;
+			padding-top: 3em;
+			margin-top: 40px;
+		.mentr-quiz-question
+			font-size: 22px;
+			font-weight: 400;
+			small
+				color #51284f
+				margin-right: .5em;	
+		.mentr-quiz-respond
+			margin-left: 24px;
+			margin-top 1.7em
+			padding-top: 2em;
+			span
+				display inline-block
+			.mentr-desc-btn
+				label
+					font-size: 16px;
+					font-weight: 300;
+			.mentr-quiz-feel
+				.mentr-quiz-feel-option
+					padding-top: .5em;
+					padding-bottom: .5em;			
+					text-align: center;
+					margin-right: 32px;
+					float left
+					.img-fell-content
+						width: 200px;
+						height: 200px;
+						//min-height: 200px;
+						margin: 0 auto;
+						display: table;
+						padding: .5em;
+						border: 1px solid rgb(203, 203, 203);
+						img
+							width: 140px;
+					.mentr-quiz-feel-respond
+						width: 200px;
+						margin: 0 auto;
+						height: 50px;
+						margin-top: 1em;
+						margin-bottom: 3em;
+						position: relative;
+						span
+							position: absolute;
+							left: 0;
+							display: block;
+							.mentr-ok-btn
+								position: absolute;
+								left: 0;
+						.selected
+							.mentr-ok-btn
+								position: relative;
+						.mentr-desc-btn
+							left: 61px;
+							position: absolute;
+							text-align: left;
+							white-space: nowrap;
+						.mentr-desc-btn
+							max-width: 188px;
+							display: inline-block;
+							display: table;
+							height: 48px;
+							label
+								font-weight: 300;
+								font-size: 18px;
+								display: table-cell;
+								vertical-align: middle;
+	.mentr-quiz-btn-desc-op
+			display: inline-block;
+			position: relative;
+			width: 47px;
+			.upLabel
+				display: block;
+				position: absolute;
+				left: 1.7em;
+				height: 40px;
+				padding-left: 0.5em;
+				width: 200px;
+				border-left: 1px solid #543458;
+				font-size: 16px;
+				font-weight: 300;
+				top: -40px;
+			.downLabel
+				display: block;
+				position: absolute;
+				right: 1.1em;
+				height: 40px;
+				padding-top: 1.2em;
+				padding-right: 0.5em;
+				width: 200px;
+				border-right: 1px solid #543458;
+				font-size: 16px;
+				font-weight: 300;
+				text-align: right;
+		#C1N,#C2N,#C3N
+			display none
+		#btn_1_content,#btn_2_content,#btn_3_content
+			display none
+		.mentr-ok-btn
+			background-color: #ffa500;
+			background-image: linear-gradient(to bottom, #ffa95c, #ff885c);
+			border: 0px solid rgba(0,0,0,0);
+			border-radius: 50%;
+			color: #fff;
+			font-weight: bold;
+			height: 40px;
+			margin: 0.2em 0.5em;
+			width: 40px;
+			&:hover
+				background-image: linear-gradient(to bottom, #ff973b, #ff713b);
+				
+		.selected
+			display: inline-block;
+			text-align: center;
+			border-radius: 50%;
+			height: 46px;
+			width: 46px;
+			padding-top: 1px;
+			border: 2px solid #ff6533;
+			.mentr-ok-btn
+				margin: 0;
+				background-image: linear-gradient(to bottom, #ff973b, #ff713b);
+		.mentr-ok-btn-large
+			background-color orange
+			background-image: linear-gradient(to bottom, #ffa95c, #ff885c);
+			border 0px solid rgba(0,0,0,0);
+			border-radius 6px
+			color white
+			font-weight bold
+			height 45px
+			margin: 0.2em .5em;
+			width 100px
+			&:hover
+				background-image: linear-gradient(to bottom, #ff973b, #ff713b);
+		.mentr-desc-btn
+			margin-left: .2em;	
+		.mentr-input-text
+			border: 1px solid rgb(202, 200, 200);
+			color: rgb(118, 118, 118);
+			font-size: 1.2em;
+			height: 45px;
+			margin-bottom: .5em;
+			margin-right: 1em;
+			padding: .5em;
+			width: 200px;
+		#mentr-footer-submit
+			background-color: moradaDivs;	
+			margin: 0em 0;
+			min-height: 187px;
+			width: 100%;
+			display table
+			#mentr-footer-row
+				display table-cell
+				vertical-align middle
+				text-align center
+				#mentr-footer-cell
+					display inline-block					
+				
+		.mentr-btn-submit
+			background-color: rgb(242, 124, 89);
+			border-radius: 4px;
+			border: 2px solid white;
+			color: white;
+			font-size: 1.4em;
+			height: 50px;
+			width: 140px;
+			&:hover
+				background-color: rgb(255, 101, 50);
+	#mentr-quiz-nav
+			background: #543458;
+			bottom: 0;
+			height: 60px;
+			position: fixed;
+			left: 0;
+			width: 100%;
+			padding: .2em;
+			.div-navContainer
+				max-width: 1225px;
+				margin: 0 auto;
+				padding-left: 2em;
+				.mentr-quiz-progress
+						width: 400px;
+						margin: 0;
+						float: left;
+						div
+							display: inline;		
+							#mentr-progres-bar
+								display: inline-block;
+								max-width: 270px;
+								width: 100%;
+								height: 4px;
+								background-color: rgb(110, 70, 102);		
+								border-radius: 6px;
+								margin-top: 2em;
+								#mentr-progres-indicator
+									width: 0%;
+									height: 100%;
+									display block
+									background-color:  rgb(228, 190, 195);
+									position: relative;
+									border-radius: 6px;
+									#mentr-progres-ball
+										width: 20px;
+										height: 20px;
+										background-color: rgb(84, 52, 88);
+										border: 2px solid rgb(228, 190, 195);
+										border-radius: 50%;
+										display: inline-block;
+										position: absolute;
+										top: -8px;
+										right: -4px;
+			#mentr-quiz-nav-btn-content		
+				.btn-nav
+					background-color: rgba(0,0,0,0);
+					border-radius: 50%;
+					border: 2px solid rosaMentr;
+					color rosaMentr
+					height: 45px;
+					margin: .5em;
+					width: 45px;
+					span
+						font-size: 1.8em;
+		.procentaje
+			color: rgb(220, 182, 189);
+			margin-left: 1em;
+			
+		#mentr-quiz-space-nav
+			width: 100%;
+			height: 60px;
+		#quiz-result-container
+			color black
+			width: 1225px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 162px; 
+			#result-container-principal
+				width: 770px;
+				float: left;
+				margin-right: 30px;
+				#quiz-result-principal
+					#quiz-result-principal-container
+						width: 100%;
+						min-height: 200px;
+						padding: 1em;
+						border-bottom: 1px solid rgb(189, 189, 189);
+						margin-bottom: 1em;
+						#img-principal				
+							background-image: url('../webroot/img/train.jpg');
+							width: 770px;
+							min-height: 404px;
+							position: relative;
+							background-color: #808080;
+							background-size: 100% 100%;
+							background-image: url("../webroot/img/train.jpg");
+							background-position: center;
+							#tittle
+								position: absolute;
+								bottom: 0;
+								height: 70px;
+								padding: 6px;
+								width: 100%;
+								background: rgba(0,0,0,0.5);
+								color: #fff;
+								font-size: 40px;
+								font-weight: 100;
+		.quiz-result-resultado
+			padding-bottom: 1em;
+			border-bottom: 1px solid rgb(189, 189, 189);
+			margin-bottom: 1em;
+			p
+				text-align: justify;
+		.quiz-result-cursos
+			width: 100%;
+			min-height: 120px;
+			padding: .5em .2em;
+			border-bottom: 1px solid rgb(189, 189, 189);
+			#quiz-result-img-content
+				width: 100%;
+				min-height: 112px;
+				position: relative;
+				color: white;
+				#tittle
+					position: absolute;
+					bottom: 0;
+					padding: .2em .4em;
+					background-color: rgba(0,0,0,0.3);
+					width: 100%;
+		.quiz-result-btn
+			height: 84px;
+			margin-top: 40px;
+			margin-bottom: 1em;
+			width: 672px;
+			background-color: #ff8c66;
+			border: 2px solid #fff;
+			color: #fff;
+			box-shadow: 2px 2px 4px 1px #9e9e9e;
+			border-radius: 6px;
+			font-size: 24px;
+			font-weight: 300;
+				
+@media (min-width: 766px)
+	body	
+		background-color rgba(0,0,0,0)
+		color colorLentrasM
+		font-family 'Lato', sans-serif
+		height 71.7%
+	header
+		position: fixed;
+		width: 100%;
+		min-width: 766px;
+		background-color: white;
+		z-index: 2;
+		top 0
+	#quiz-container
+		width: 1225px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px; 
+		#quiz-wellcome
+			background-color: #cabeca;
+			min-height: 218px;
+			padding-top: 32px;
+			width: 100%;
+			padding-left: 22px;
+			h2
+				margin: 0;
+				font-size: 30px;
+				line-height: 40px;
+			h4
+				margin-top: 32px;
+				font-size: 22px;
+				font-weight: 300;
+	#quiz-header
+		border-bottom: 1px solid rgb(221, 221, 221);
+		height: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1225px;
+		img
+			float: left;
+			margin-top: 30px;
+			width: 226px;
+		#quiz-header-msg
+			color colorLetraR
+			display: inline-block;
+			float: right;
+			font-size: 18px;
+			margin-top: 30px;
+			max-width: 718px;
+			text-align: right;
+			font-weight: 300;
+	.mentr-quiz-content
+		margin-left: 200px;
+		margin-right: 200px;
+	.question
+		padding-bottom: 3em;
+		padding-top: 3em;
+		margin-top: 100px;
+	.mentr-quiz-question
+		font-size: 22px;
+		font-weight: 400;
+		small
+			color #51284f
+			margin-right: .5em;	
+	.mentr-quiz-respond
+		margin-left: 47px;
+		margin-top 1.7em
+		.mentr-desc-btn
+			label
+				font-size: 16px;
+				font-weight: 300;
+		.mentr-quiz-feel
+			.mentr-quiz-feel-option
+				padding-top: .5em;
+				padding-bottom: .5em;			
+				text-align: center;
+				margin-right: 32px;
+				float left
+				.img-fell-content
+					width: 200px;
+					height: 200px;
+					//min-height: 200px;
+					margin: 0 auto;
+					display: table;
+					padding: .5em;
+					border: 1px solid rgb(203, 203, 203);
+					img
+						width: 140px;
+				.mentr-quiz-feel-respond
+					width: 200px;
+					margin: 0 auto;
+					margin-top: 1em;
+					position: relative;
+					span
+						position: absolute;
+						left: 0;
+						display: block;
+						.mentr-ok-btn
+							position: absolute;
+							left: 0;
+					.selected
+						.mentr-ok-btn
+							position: relative;
+					.mentr-desc-btn
+						left: 61px;
+						position: absolute;
+						text-align: left;
+						white-space: nowrap;
+					.mentr-desc-btn
+						max-width: 188px;
+						display: inline-block;
+						display: table;
+						height: 48px;
+						label
+							font-weight: 300;
+							font-size: 18px;
+							display: table-cell;
+							vertical-align: middle;
+	.mentr-quiz-btn-desc-op
+		display: inline-block;
+		position: relative;
+		width: 59px;
+		#mentr-quiz-btn-desc-op-label
+			display: block;
+			position: absolute;
+			left: 2.2em;
+			height: 40px;
+			padding-top: 1.6em;
+			padding-left: .5em;
+			width: 200px;
+			border-left: 1px solid rgb(84, 52, 88);
+			font-size: 16px;
+			font-weight: 300;
+	#C1N,#C2N,#C3N
+		display none
+	#btn_1_content,#btn_2_content,#btn_3_content
+		display none
+	.mentr-ok-btn
+		background-color orange
+		background-image: linear-gradient(to bottom, #ffa95c, #ff885c);
+		border: 0px solid rgba(0,0,0,0);
+		border-radius 50%
+		color white
+		font-weight bold
+		height 45px
+		margin: 0.2em .5em;
+		width 45px
+		&:hover
+			background-image: linear-gradient(to bottom, #ff973b, #ff713b);
+			
+	.selected
+		display: inline-block;
+		text-align: center;
+		border-radius: 50%;
+		height: 53px;
+		width: 53px;
+		padding-top: 0.15em;
+		border: 2px solid rgb(255, 101, 51);
+		.mentr-ok-btn
+			margin 0
+			background-image: linear-gradient(to bottom, #ff973b, #ff713b);
+	.mentr-ok-btn-large
+		background-color orange
+		background-image: linear-gradient(to bottom, #ffa95c, #ff885c);
+		border 0px solid rgba(0,0,0,0);
+		border-radius 6px
+		color white
+		font-weight bold
+		height 45px
+		margin: 0.2em .5em;
+		width 100px
+		&:hover
+			background-image: linear-gradient(to bottom, #ff973b, #ff713b);
+	.mentr-desc-btn
+		margin-left: .2em;	
+	.mentr-input-text
+		border: 1px solid rgb(202, 200, 200);
+		color: rgb(118, 118, 118);
+		font-size: 1.2em;
+		height: 45px;
+		margin-bottom: .5em;
+		margin-right: 1em;
+		padding: .5em;
+		width: 200px;
+	#mentr-footer-submit
+		background-color: moradaDivs;	
+		margin: 0em 0;
+		min-height: 187px;
+		padding: 70px 0 0 261px;
+		width: 100%;
+		#mentr-footer-row
+			display table-row
+			#mentr-footer-cell
+				display table-cell
+				vertical-align middle
+			
+	.mentr-btn-submit
+		background-color: rgb(242, 124, 89);
+		border-radius: 4px;
+		border: 2px solid white;
+		color: white;
+		font-size: 1.4em;
+		height: 50px;
+		width: 140px;
+		&:hover
+			background-color: rgb(255, 101, 50);
+	#mentr-quiz-nav
+		background: #543458;
+		bottom: 0;
+		height: 60px;
+		position: fixed;
+		left: 0;
+		width: 100%;
+		min-width: 766px;
+		padding: .2em;
+		.div-navContainer
+			max-width: 1225px;
+			margin: 0 auto;
+			padding-left: 2em;
+			.mentr-quiz-progress
+					width: 400px;
+					margin: 0;
+					float: left;
+					div
+						display: inline;		
+						#mentr-progres-bar
+							display: inline-block;
+							max-width: 270px;
+							width: 100%;
+							height: 4px;
+							background-color: rgb(110, 70, 102);		
+							border-radius: 6px;
+							margin-top: 2em;
+							#mentr-progres-indicator
+								width: 0%;
+								height: 100%;
+								display block
+								background-color:  rgb(228, 190, 195);
+								position: relative;
+								border-radius: 6px;
+								#mentr-progres-ball
+									width: 20px;
+									height: 20px;
+									background-color: rgb(84, 52, 88);
+									border: 2px solid rgb(228, 190, 195);
+									border-radius: 50%;
+									display: inline-block;
+									position: absolute;
+									top: -8px;
+									right: -4px;
+		#mentr-quiz-nav-btn-content		
+			.btn-nav
+				background-color: rgba(0,0,0,0);
+				border-radius: 50%;
+				border: 2px solid rosaMentr;
+				color rosaMentr
+				height: 45px;
+				margin: .5em;
+				width: 45px;
+				span
+					font-size: 1.8em;
+	.procentaje
+		color: rgb(220, 182, 189);
+		margin-left: 1em;
+		
+	#mentr-quiz-space-nav
+		width: 100%;
+		height: 60px;
+	#quiz-result-container
+		color black
+		width: 1225px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 162px; 
+		#result-container-principal
+			width: 770px;
+			float: left;
+			margin-right: 30px;
+			#quiz-result-principal
+				#quiz-result-principal-container
+					width: 100%;
+					min-height: 200px;
+					padding-bottom: 1em;
+					border-bottom: 1px solid rgb(189, 189, 189);
+					margin-bottom: 1em;
+					#img-principal				
+						background-image: url('../webroot/img/train.jpg');
+						width: 770px;
+						min-height: 404px;
+						position: relative;
+						background-color: #808080;
+						background-size: 100% 100%;
+						background-image: url("../webroot/img/train.jpg");
+						background-position: center;
+						#tittle
+							position: absolute;
+							bottom: 0;
+							height: 70px;
+							padding: 6px;
+							width: 100%;
+							background: rgba(0,0,0,0.5);
+							color: #fff;
+							font-size: 40px;
+							font-weight: 100;
+	.quiz-result-resultado
+		padding-bottom: 1em;
+		border-bottom: 1px solid rgb(189, 189, 189);
+		margin-bottom: 1em;
+		.result-header
+			margin-top: 40px;
+			margin-bottom: 30px;
+			padding-left: 10px;
+			big
+				label
+					font-size: 20px;
+					font-weight: 400;
+			label
+				font-size: 16px;
+				font-weight: 400;
+		p
+			text-align: justify;
+			font-size: 16px;
+			font-weight: 300;
+	.quiz-result-cursos
+		width: 100%;
+		min-height: 120px;
+		padding: .5em .2em;
+		border-bottom: 1px solid rgb(189, 189, 189);
+		#quiz-result-img-content
+			width: 100%;
+			min-height: 112px;
+			position: relative;
+			color: white;
+			#tittle
+				position: absolute;
+				bottom: 0;
+				padding: .2em .4em;
+				background-color: rgba(0,0,0,0.3);
+				width: 100%;
+	.quiz-result-btn
+		height: 84px;
+		margin-top: 40px;
+		margin-bottom: 1em;
+		width: 672px;
+		background-color: #ff8c66;
+		border: 2px solid #fff;
+		color: #fff;
+		box-shadow: 2px 2px 4px 1px #9e9e9e;
+		border-radius: 6px;
+		font-size: 24px;
+		font-weight: 300;
+	#Recommendations
+		#recomendation-content
+			margin-bottom: 1em;
+			#circle-arrow
+				width: 45px;
+				height: 45px;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+				float: left;
+				padding-top: 1em;
+				margin-right: 35px;
+			#recomendacion
+				float: left;
+				width: 690px;
+				font-size: 17px;
+				font-weight: 300;
+				text-align: justify;
+	

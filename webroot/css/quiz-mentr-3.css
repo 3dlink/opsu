@@ -1,0 +1,95 @@
+
+  h2,h4{
+    font-family: 'Lato' !important;
+    font-weight: 300;
+  }
+  h4{
+    font-size:22px;
+    margin-bottom: 35px;
+  }
+  h2{
+    line-height: 40px;
+    font-size:30px;
+  }
+
+  #mentr-quiz-nav {
+    background: #543458;
+    bottom: 0;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    padding: 0.2em;
+  }
+  #mentr-quiz-nav .div-navContainer {
+    max-width: 1225px;
+    margin: 0 auto;
+    width: 770px;
+  }
+  #mentr-quiz-nav .div-navContainer .mentr-quiz-progress {
+    width: 450px;
+    margin: 0;
+    float: left;
+  margin-left: 16px;
+  }
+  #mentr-quiz-nav .div-navContainer .mentr-quiz-progress div {
+    display: inline;
+  }
+  #mentr-quiz-nav .div-navContainer .mentr-quiz-progress div #mentr-progres-bar {
+    display: inline-block;
+    max-width: 270px;
+    width: 100%;
+    height: 4px;
+    background-color: #6e4666;
+    border-radius: 6px;
+    margin-top: 2em;
+  }
+  #mentr-quiz-nav .div-navContainer .mentr-quiz-progress div #mentr-progres-bar #mentr-progres-indicator {
+    width: 0%;
+    height: 100%;
+    display: block;
+    background-color: #e4bec3;
+    position: relative;
+    border-radius: 6px;
+  }
+  #mentr-quiz-nav .div-navContainer .mentr-quiz-progress div #mentr-progres-bar #mentr-progres-indicator #mentr-progres-ball {
+    width: 20px;
+    height: 20px;
+    background-color: #543458;
+    border: 2px solid #e4bec3;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -8px;
+    right: -4px;
+  }
+  #mentr-quiz-nav #mentr-quiz-nav-btn-content .btn-nav {
+    background-color: rgba(0,0,0,0);
+    border-radius: 50%;
+    border: 2px solid #e4bec3;
+    color: #e4bec3;
+    height: 45px;
+    margin: 0.5em;
+    width: 45px;
+  }
+  #mentr-quiz-nav #mentr-quiz-nav-btn-content .btn-nav span {
+    font-size: 1.8em;
+  }
+  .procentaje {
+    color: #dcb6bd;
+    margin-left: 1em;
+  }
+  #mentr-quiz-space-nav {
+    width: 100%;
+    height: 60px;
+  }
+
+  #btn_10_1{
+    margin-left: 4px !important;
+  }
+  
+@media ( max-width : 750px) {
+  #mentr-quiz-nav .div-navContainer {
+    width: 100%;
+  }
+}

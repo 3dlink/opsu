@@ -1,0 +1,2 @@
+INSERT INTO `vision_mentr`.`assessments` (`id`, `name`, `description`) VALUES (NULL, 'P3', 'P3 Assessment');
+INSERT INTO `vision_mentr`.`assessments` (`id`, `name`, `description`) VALUES (NULL, 'Personality', 'Personality and employability');

@@ -1,0 +1,1 @@
+ALTER TABLE  `orbituaries` ADD  `image` VARCHAR( 255 ) NULL ;

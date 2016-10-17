@@ -1,0 +1,146 @@
+#imgForDesktop {
+  display: none;
+}
+#imgForMobile {
+  display: inline-block;
+  max-width: 260px;
+  width: 100%;
+}
+#quiz-header-msg {
+  display: none;
+}
+body {
+  background-color: rgba(0,0,0,0);
+  color: #51284f;
+  font-family: 'Lato', sans-serif;
+}
+header {
+  width: 100%;
+}
+#quiz-result-container {
+  color: #000;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+#quiz-result-container #result-container-principal #quiz-result-principal #quiz-result-principal-container {
+  width: 100%;
+  min-height: 200px;
+  margin: 0 auto;
+  background-color: #1f1f1f;
+}
+#quiz-result-container #result-container-principal #quiz-result-principal #quiz-result-principal-container #img-principal {
+  background-image: url("../webroot/img/train.jpg");
+  max-width: 770px;
+  max-height: 350px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #808080;
+  background-size: 100% 157%;
+  background-position-y: 60%;
+}
+#quiz-result-container #result-container-principal #quiz-result-principal #quiz-result-principal-container #img-principal #tittle {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  padding: 12px 0 0 20px;
+  width: 100%;
+  background: rgba(0,0,0,0.3);
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+}
+.quiz-result-resultado .result-header {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.quiz-result-resultado .result-header big label {
+  font-size: 20px;
+  font-weight: 400;
+}
+.quiz-result-resultado .result-header label {
+  font-size: 16px;
+  font-weight: 400;
+}
+.quiz-result-resultado p {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 300;
+}
+.Pi-result {
+  text-align: center;
+}
+#Recommendations #recomendation-content {
+  margin-bottom: 1em;
+  position: relative;
+}
+#Recommendations #recomendation-content #circle-arrow {
+  width: 45px;
+  height: 45px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  float: left;
+  padding-top: 1em;
+  margin-right: 35px;
+}
+#Recommendations #recomendation-content #recomendacion {
+  float: left;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: justify;
+  width: 80%;
+}
+.quiz-result-btn {
+  height: 84px;
+  margin-bottom: 1em;
+  max-width: 672px;
+  background-color: #ff8c66;
+  border: 2px solid #fff;
+  color: #fff;
+  box-shadow: 2px 2px 4px 1px #9e9e9e;
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 0%;
+  width: 100%;
+}
+#article-cont {
+  border-top: 1px solid #bdbdbd;
+  width: 100%;
+}
+
+.texto{
+  margin-left: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+#header_quiz {
+  padding: 18px 0 0 35px;
+  height: 100px;
+}
+
+#quiz-result-principal{
+  border-bottom: solid 2px #e5e5e5;
+  padding-bottom: 15px;
+}
+
+.recomendaciones-div{
+  margin-top: 25px;
+}
+
+.quiz-result-resultado .result-header big label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.quiz-result-resultado .result-header label {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.items_recommendations{
+  margin-top: 16px;
+}
+
+

@@ -1,0 +1,1 @@
+ALTER TABLE  `users` ADD  `primera_vez` INT NOT NULL DEFAULT  '0';

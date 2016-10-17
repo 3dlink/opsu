@@ -1,0 +1,1 @@
+ALTER TABLE  `jobs` ADD  `favorite` TINYINT NOT NULL DEFAULT  '0' AFTER  `c` ;

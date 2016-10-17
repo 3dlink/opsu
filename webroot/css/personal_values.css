@@ -1,0 +1,253 @@
+  .quiz-result-btn:hover{
+    background-color: rgb(254, 111, 63);
+    opacity: 1;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.50);
+  }
+
+.optionValue{
+		background-color: white;
+		width: 170px;
+		height: 40px;
+		border: 2px solid #fbae95;
+  		border-radius: 5px;
+  		text-align: center;
+  		padding-top: 5px;
+  		font-size: 16px;
+  		float: left;
+  		margin-right: 30px;
+  		margin-bottom: 20px;
+  		cursor: pointer;
+	}
+
+	#content-options{
+		color: black;
+	}
+
+
+  	.quiz-result-btn{
+  		margin-top: 20px;
+  	}
+
+	.squareTitle{
+		border-top-right-radius:10px; 
+		border-top-left-radius:10px; 
+		background:#fbae95; 
+		color:white; 
+		text-align:center; 
+		font-size:24px;
+	}
+
+	.selecThis{
+		color: white;
+		background-color: #ff6633;
+	}
+
+	.quiz-result-btn{
+		height: 56px;
+		width: 160px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	li{
+		 list-style-type: none;
+	}
+
+	.top10{
+		color: white !important;
+		background-color: #ff3300 !important;
+		text-align: center !important;
+	}
+
+	.podium{
+		color: white !important;
+		background-color: #ff3300 !important;
+		text-align: center !important;
+	}
+
+	.VeryImportant{
+		color: white !important;
+		background-color: #ff6633 !important;
+		text-align: center !important;
+	}
+
+	.Important{
+		color: white !important;
+		background-color: #51284f !important;
+		text-align: center !important;
+	}
+
+	.optionValueEmpty{
+		background-color: #f2f2f2;
+		border: 2px solid #fbae95;
+		width: 170px;
+		height: 40px;
+  		border-radius: 5px;
+  		padding-top: 5px;
+  		font-size: 16px;
+  		float: left;
+  		margin-right: 6px;
+  		margin-left: 6px;
+  		margin-bottom: 20px;
+  		cursor: pointer;
+	}
+
+
+@media ( max-width : 750px) {
+
+	.addPersonalValue{
+		font-size: 18px !important;
+	}
+
+	.titulo_izquierda{
+		/*font-size: 20px !important;*/
+	}
+
+	#indicatorSelect{
+		display: block !important;
+		font-size:12px !important;
+		float: right;
+		padding-top: 5px;
+		padding-right: 3px;
+	}
+
+	#content-options{
+		width: 100% !important;
+		margin-left: 0px !important;
+		padding-left: 20px !important;
+		  text-align: justify;
+		  padding-right: 20px;
+	}
+
+	.optionValue, .optionValueEmpty{
+		width: 150px !important;
+	}
+
+	.seccion_derecha {
+		float: left !important;
+	}
+
+	.ClassOptionsValues{
+		width: 100% !important;
+		margin: 0px !important;
+		padding: 35px 0px 40px 0px;	
+	}
+
+	.modal-dialog{
+		margin-top: 20px;
+		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	.squareF{
+		float: left;
+		width: 100% !important;
+		margin-right: auto !important;
+  		margin-left: auto !important;
+	}
+
+	.bottomWeb{
+		display: none !important; 
+	}
+
+	.bottomMobile{
+		display: block !important;
+	}
+
+	.top10Mobile{
+		margin-left: 6px !important;
+		margin-right: 6px !important;
+		padding-top: 5px !important;
+		margin-bottom: 20px !important;
+	}
+
+	.top10MobileUl{
+		margin-top: 20px !important;
+	}
+
+	.squareI > ul > li {
+		margin-left: 6px !important;
+	}
+
+	.squareS2{ 
+		float: right !important;
+	}
+
+	.squareS{
+		width: 46% !important;
+		margin-right: 0px !important;
+		height: initial !important;
+	}
+
+	.squareSL{
+		margin-right: 10px !important;
+	}
+
+	.squareI{
+		height: 195px !important;
+  		white-space: nowrap;
+  		overflow-x: hidden;
+  		overflow-y: hidden;
+	}
+
+	.squareTitle{
+		font-size: 17px !important;
+	}
+
+	#menuPodium{
+		width: 47% !important;
+	}
+
+
+	.podium1{
+		width: 150px !important;
+		left: 10px !important;
+	}
+
+	.menuTop{
+		margin-right: 15px !important;
+		width: 47% !important;
+	}
+	.liTop{
+		margin-left: 10px !important;
+	}
+
+	.spaceBottom{
+		padding-bottom: 0px !important;
+	}
+	.firstPodium{
+  		  margin-left: 15% !important;
+	}
+
+	.thirdPodium{
+		margin-left: 30% !important;
+	}
+
+	.firstPodiumLi{
+  		  margin-left: 20% !important;
+	}
+
+	.thirdPodiumLi{
+		margin-left: 35% !important;
+	}
+}
+
+@media (max-width: 550px){
+
+	.firstPodium{
+  		  margin-left: 0px !important;
+	}
+
+	.thirdPodium{
+		margin-left: 0px !important;
+	}
+
+	.firstPodiumLi{
+  		  margin-left: 10px !important;
+	}
+
+	.thirdPodiumLi{
+		margin-left: 10px !important;
+	}
+	
+}

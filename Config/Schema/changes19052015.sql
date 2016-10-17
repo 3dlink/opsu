@@ -1,0 +1,1 @@
+ALTER TABLE  `users` ADD  `puntaje_id` INT NOT NULL ;

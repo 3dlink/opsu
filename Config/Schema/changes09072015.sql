@@ -1,0 +1,2 @@
+INSERT INTO `vision_mentr`.`puntajes` (`id`, `personal`, `pyramid`, `obituary`, `meditation`, `career`, `work`, `abilities`, `vocational`, `skills`, `cdmf`, `ajh`, `feedback`) VALUES ('-1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+UPDATE `vision_mentr`.`users` SET `puntaje_id` = '-1' WHERE `users`.`id` = 1;

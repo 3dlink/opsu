@@ -1,0 +1,265 @@
+body {
+  width: 1280px;
+}
+#dash_content{
+	float: left;
+}
+
+#cardName{
+	max-width: 683px;
+}
+
+.exp{
+	margin-left:25px;
+}
+.sec{
+	margin-left:40px;
+}
+.what{
+	margin-left:25px;
+}
+.titleFi{
+	font-size: 20px; font-weight: bold; padding: 20px 0px 20px 0px; display: inline-block;
+}
+#derecha > .conteL{
+	font-size: 20px;
+}
+#derecha > .conteR{
+	font-size: 20px;
+}
+.info{
+	 margin-top:25px; width: 360px; font-size:16px;
+}
+#message-succes {
+  height: initial;
+}
+.error{
+	background-color:rgb(253, 104, 104) !important;
+}
+#message-succes-texto h3 {
+  margin-left: 72px;
+}
+#form{
+	width:770px;  
+	padding-left:55px; 
+	color:black; 
+	float:left;
+}
+.letras_abajo{
+	font-size:20px; 
+	padding-top: 20px; 
+	text-align: center; 
+	padding-bottom: 20px; 
+	width: 330px; 
+	margin: 0 auto;
+}
+.letras_caja{
+	font-size:20px; 
+	padding-top: 20px; 
+	text-align: center; 
+	border-bottom: 1px solid #e2e2e2; 
+	padding-bottom: 20px; 
+	width: 330px; 
+	margin: 0 auto;
+}
+.sucss{
+	margin-top: 25px;
+}
+.footer_caja{
+	height:80px;   
+	text-align: center;
+}
+.caja_content{
+	width:100%; 
+	background-color:#f7f7f7;  
+	display: table; 
+	height:180px;
+}
+.input_form{
+	padding-left:20px;  
+	background-color: #f7f7f7; 
+	border:1px solid #cccccc; 
+	width:565px; 
+	height:40px; 
+	font-size:20px;
+}
+
+#derecha{
+	color: black;
+	width:370px;  
+	float:left; 
+	margin-left:80px;
+}
+
+.conteL > .diiv{
+	font-size:20px; margin-top:20px; width:370px;
+}
+
+#message-succes-imagen {
+  margin-top: 30px;
+}
+#message-succes {
+  margin-bottom: 35px;
+}
+
+@media ( max-width : 750px) {
+	body {
+	  width: 100%;
+	}
+	#cardName{
+		*width: 100%;
+	}
+
+	#Cardday{
+		margin-left: 0px !important; 
+		width: 65px !important;
+	}
+	#Cardyear{
+		margin-left: 0px !important; 
+		width: 105px !important;
+	}
+	.info{
+		width: 100%;
+	}
+	#derecha > .conteL{
+		font-size: 20px;
+	}
+	#derecha > .conteR{
+		font-size: 20px;
+	}
+	.footer_caja{
+		background-color: white;
+	}
+
+	.letras_caja{
+		width: 100%; 
+	}
+	.caja_content{
+		width:100%; 
+		padding: 0 20px;
+	}
+
+	#dash_content_2{
+		padding: 0 40px;
+		float: left;
+		width: 100%;
+	}
+
+	#form{
+		width:100%;
+		padding:0;
+		font-size: 18px !important;
+	}
+
+	.input_form{
+		width:80%; 
+		padding-left: 5px;
+	}
+
+	#derecha{
+		width:100%;  
+		float:left; 
+		margin: 0;
+		border-top: solid 2px #d0d0d0;
+		margin-top: 40px;
+	}
+}
+@media ( max-width : 663px) {
+	.input_form{
+		width:78%; 
+	}
+}
+@media ( max-width : 612px) {
+	.input_form{
+		width:76%; 
+	}
+}
+@media ( max-width : 570px) {
+	.input_form{
+		width:74%; 
+	}
+}
+@media ( max-width : 534px) {
+	.input_form{
+		width:72%; 
+	}
+}
+@media ( max-width : 503px) {
+	.input_form{
+		width:70%; 
+	}
+}
+@media ( max-width : 476px) {
+	.input_form{
+		width:68%; 
+	}
+}
+@media ( max-width : 451px) {
+	.input_form{
+		width:66%; 
+	}
+}
+@media ( max-width : 395px) {
+	.input_form{
+		width:64%; 
+	}
+}
+@media ( max-width : 377px) {
+	.input_form{
+		width:62%; 
+	}
+}
+@media ( max-width : 360px) {
+	.input_form{
+		width:60%; 
+	}
+}
+@media ( max-width : 345px) {
+	.input_form{
+		width:58%; 
+	}
+}
+
+@media ( max-width : 460px) {	
+	.letras_abajo{
+		width: 100%; 
+	}
+}
+
+@media ( max-width : 440px) {
+	#dash_content_2{
+		padding: 0 30px;
+	}
+	.exp{
+		margin-left:15px;
+	}
+	.sec{
+		margin-left:25px;
+	}
+	.what{
+		margin-left:10px;
+	}
+}
+@media ( max-width : 420px) {
+	#dash_content_2{
+		padding: 0 22px;
+	}
+.conteL > .diiv {
+	font-size: 20px;
+	width: 100%;
+}
+}
+@media ( max-width : 375px) {
+	#Carddate{
+		width: 40px !important;
+	}
+	#Cardyear{
+		width: 90px !important;
+	}
+}
+@media ( max-width : 360px) {
+.conteL > .diiv {
+	font-size: 20px;
+}
+
+}

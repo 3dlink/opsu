@@ -1,0 +1,285 @@
+	#titulo_comments{
+		color: black; 
+		margin-left: 55px; 
+		font-size: 30px; 
+		font-weight:500; 
+		margin-bottom: 35px;
+	}
+
+	.mentr-ok-btn-large2{
+		padding: 0px !important;
+		    height: 55px;
+	}
+
+	#user_menu{
+		  width: 160px;
+		  height: 160px;
+		  padding: 0.2em;
+		  border-radius: 50%;
+		  display: inline-block;
+		  background-repeat: no-repeat;
+		  background-position: center;
+		  background-size: 100%;
+		  margin-top: -5px;
+	}	
+	.precio{
+		float:left; 
+		width:27%; 
+		background-color:#E8E8E8; 
+		display: inline-table;
+	}
+
+	.hamburguesa{
+		background-image: url('../img/dashboard/burguer.png');
+		height: 20px;
+		width: 35px;
+		z-index: 4;
+	}
+	.caja_precios{
+		  width: 100%;  
+		  float: left; 
+		  margin-top:25px; 
+		  box-shadow: 0 0 5px 1px rgba(0,0,0,0.16);
+	}
+	.content_packs{
+		margin-bottom: 10px;
+		float:left; 
+		padding-top:30px !important; 
+		width: 67% !important;
+	}
+	.options_packs{
+		margin-left: 10px; 
+		background-color:#eaeaea; 
+		padding: 10px 5px !important; 
+		height: 55px; 
+		width: 55px; 
+	}
+
+	.options_packs:hover{
+		background-color:rgb(212, 212, 212); 
+	}
+	.firstCost{
+		background-image: url("../webroot/img/premium_img_cost22.png");
+	}
+	.secondCost{
+		background-image: url("../webroot/img/premium_img_cost70.png");
+	}
+	#dash_content {
+		color: black;
+	}
+
+	.cajas{
+		position: relative; 
+ 		float: left; 
+ 		height:620px; 
+ 		width:360px; 
+ 		box-shadow: 0 0 5px 1px rgba(0,0,0,0.16);
+ 		border:solid 1px #d0d0d0;
+ 		font-size: 20px;
+	}
+
+	.mentr-ok-btn-large2 {
+	  font-size: 24px;
+	  font-weight: 500;
+	}
+
+	.titulo_caja{
+		font-size: 25px;
+		font-weight: 500; 
+		text-align:center; 
+		padding-top:25px; 
+		padding-bottom: 20px;
+	}
+
+	.titulo_premium{
+		text-shadow: 2px 2px 0px #b9b9b9;
+		font-size:48px; 
+		font-weight: 500;
+		padding-top:4px;  
+		margin:0 auto;
+		width: 790px; 
+		text-align: center;
+		margin-top: 5px;	
+	}
+	.subtitulo_premium{
+		margin:0 auto; 
+		text-align: center; 
+		font-size:24px; 
+		margin-top:10px;
+	}
+	.versionWeb{
+		padding-top:30px; 
+		padding-bottom:40px; 
+		background-color: #f7f7f7; 
+		float: left;
+	}
+	.promoCode{
+		float:left;   
+		width: 1170px; 
+		margin-left: 55px;
+		height: 80px;
+		border-top: 2px solid #d0d0d0;   
+		padding-top: 20px;
+	}
+	.promoCode > label{
+		  padding-top: 6px;
+		font-size: 20px;
+		font-weight: 300;
+		float: left;
+	}
+
+	.input_form {
+		float: left;
+	  background-color: #ededed;
+	  font-size: 20px;
+	  width: 270px;
+	  height: 40px;
+	  padding-left: 10px;
+	  border: none;
+	  box-shadow: 0px 1px 0px 0px #999999;
+	  margin-left: 30px;
+	  margin-right: 25px;
+	}
+
+	.overDetailsPack{
+		float:left;  
+		width: 1170px; 
+		padding-bottom: 40px; 
+		margin: 0 auto; 
+		border-bottom: 2px solid #d0d0d0; 
+		border-top: 2px solid #d0d0d0;   
+		margin-left: 55px; 
+	}
+	.promo_btn{
+		height: 40px;
+		float: left;
+		padding-top: 0px;
+		width: 250px;
+    	
+	}
+	@media (max-width: 750px){
+
+		.modal-dialog{
+			margin-top: 25%;
+		}
+
+		.modal-dialog{
+			width: 95% !important;
+		}
+
+		.promo_btn{
+			margin-top: 20px;
+		}
+		.activatePromo{
+			font-size: 20px !important;
+			margin-left: 0px !important;
+			float: initial !important; 
+		}
+
+		.input_form {
+			margin-left: 15px;
+			margin-top: 20px;
+		}
+
+		#titulo_comments{ 
+			margin-left: 0px; 
+		}
+
+		#segundo_content{
+			float: left;
+			margin: 0 40px;
+		}
+
+		.titulo_premium{
+			padding: 0 40px;
+		}
+
+		.promoCode > label{
+			text-align: left;
+		}
+
+		#promoCode{
+			margin-left: 30px !important;
+			float: initial !important; 
+		}
+
+		.promoCode{
+			text-align: center;
+			height: inherit;
+			padding-bottom: 20px;
+			margin-left: 0px;
+			margin-top: 20px;
+		}
+		#salto{
+			display: none;
+		}
+		.select_mobile{
+			    height: 55px;
+			width: 210px;
+		}
+		.comments{
+			float: none !important;
+			width: 100% !important;
+		}
+		.versionWeb,#discountWeb{
+			display: none !important;
+		}
+		.versionMobile, #discountMobile{
+			display: block !important;
+		}
+		.allWidth{
+			width: 100% !important;
+		}
+		.overPack{
+			width: 100% !important;
+			float: none !important;
+		}
+		.overDetailsPack{
+			margin-left: 0px !important;
+		}
+	}
+
+@media (max-width: 650px){
+	.activatePromo {
+		/*margin-left: 15px !important;*/
+		width: 270px;
+	}
+}
+
+@media (max-width: 625px){
+	.promo_btn {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 600px){
+		#segundo_content{
+			margin: 0 25px;
+		}
+		.titulo_premium {
+    	padding: 0 25px;
+		}
+}
+
+@media (max-width: 480px){
+	.select_mobile {
+	  width: 50%;
+	}
+}
+@media (max-width: 400px){
+	.content_packs {
+	  width: 60% !important;
+	}
+	.select_mobile{
+		padding: 10px 5px !important;
+	}
+}
+
+@media (max-width: 380px){
+.mentr-ok-btn-large2 {
+  padding: 10px 0px;
+}
+.promo_btn {
+  padding: 0px 0px;
+}
+}

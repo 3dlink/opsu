@@ -1,0 +1,1 @@
+ALTER TABLE  `feedbacka` ADD  `sent` INT NOT NULL DEFAULT  '0';
